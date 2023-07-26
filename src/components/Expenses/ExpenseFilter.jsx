@@ -2,10 +2,10 @@ import React from 'react';
 
 import './ExpenseFilter.css';
 
-const ExpensesFilter = ({selected, onFiterredYearSelected}) => {
+const ExpensesFilter = ({selected, onFilterredYearSelected}) => {
 
   const changeDropdownHandler = (e) => {
-    onFiterredYearSelected(e.target.value);
+    onFilterredYearSelected(e.target.value);
   }
 
   return (
